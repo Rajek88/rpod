@@ -1,6 +1,8 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
 
+// the Music component with all its styles at bottom
+
 class Music extends React.Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class Music extends React.Component {
               alt="battery"
             ></img>
           </div>
+          {/* List group to add elements to show in menu */}
           <ListGroup style={{ borderRadius: "0" }}>
             <ListGroup.Item
               style={{ border: "0", padding: "0.2rem 0.6rem" }}

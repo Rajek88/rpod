@@ -1,6 +1,8 @@
 import React from "react";
 
+// Created componet to use it at multiple places throughout the app
 const TitleBar = ({ pageName }) => {
+  // the the name of page as props and show it on
   return (
     <div style={styles.titleBar}>
       <p style={styles.para}>{pageName}</p>

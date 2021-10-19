@@ -1,6 +1,8 @@
 import React from "react";
 import TitleBar from "../components/TitleBar";
 
+// the MyMusic component with all its styles at bottom
+
 class MyMusic extends React.Component {
   constructor() {
     super();
@@ -8,6 +10,8 @@ class MyMusic extends React.Component {
       isMounted: true,
     };
   }
+
+  // When component mounts start playing music asap
 
   componentDidMount() {
     let self = this;
@@ -25,7 +29,7 @@ class MyMusic extends React.Component {
       }
     });
   }
-
+  // to update time
   updateTime = () => {
     this.setState({
       audio: this.props.audio,

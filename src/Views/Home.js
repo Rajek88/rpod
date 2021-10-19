@@ -1,6 +1,8 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
 
+// the Home component with all its styles at bottom
+
 class Home extends React.Component {
   render() {
     return (

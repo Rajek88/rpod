@@ -1,6 +1,8 @@
 import React from "react";
 import TitleBar from "../components/TitleBar";
 
+// the album component with all its styles at bottom
+
 class Albums extends React.Component {
   render() {
     return (

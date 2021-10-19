@@ -1,6 +1,8 @@
 import React from "react";
 import TitleBar from "../components/TitleBar";
 
+// the Setting component with all its styles at bottom
+
 class Settings extends React.Component {
   render() {
     return (
@@ -15,6 +17,7 @@ class Settings extends React.Component {
             justifyContent: "center",
           }}
         >
+          {/* A gif of setting gear rotating infinetly */}
           <img
             style={styles.image}
             src="https://c.tenor.com/eXPpVjeORscAAAAi/brainpull-brainpull-stories.gif"

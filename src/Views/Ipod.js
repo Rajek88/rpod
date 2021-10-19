@@ -14,6 +14,8 @@ class Ipod extends React.Component {
     };
   }
 
+  // The algorithm to handle rotation of wheel
+
   rotateWheel = () => {
     var containerElement = document.getElementById("inner-container");
     var activeRegion = new ZingTouch.Region(containerElement);
@@ -109,6 +111,7 @@ class Ipod extends React.Component {
     }
   };
 
+  // to hancdle the page change
   changePage = () => {
     if (this.state.activeItem === "Music") {
       this.setState({
@@ -127,7 +130,7 @@ class Ipod extends React.Component {
       });
     }
   };
-
+  // to handle back to the home screen
   changePageToHomeScreen = () => {
     if (
       this.state.activeItem === "MyMusic" ||
@@ -162,6 +165,7 @@ class Ipod extends React.Component {
     }
   };
 
+  // when component mounts start playing song
   componentDidMount() {
     let audio = document.getElementsByClassName("audio-element")[0];
     console.log(audio);
@@ -171,6 +175,7 @@ class Ipod extends React.Component {
     console.log(this.state);
   }
 
+  // rendering of UI
   render() {
     return (
       <div style={styles.ipodContainer}>

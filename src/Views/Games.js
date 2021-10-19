@@ -1,6 +1,8 @@
 import React from "react";
 import TitleBar from "../components/TitleBar";
 
+// the Game component with all its styles at bottom
+
 class Games extends React.Component {
   render() {
     return (
@@ -9,6 +11,7 @@ class Games extends React.Component {
         <div style={{ width: "100%", height: "90%" }}>
           <img
             style={styles.image}
+            // added gif of super mario game
             src="https://c.tenor.com/yJOUcNpFxzkAAAAC/super-mario-video-game.gif"
             alt="super-mario"
           />
