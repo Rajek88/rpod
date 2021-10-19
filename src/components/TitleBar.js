@@ -3,7 +3,7 @@ import React from "react";
 const TitleBar = ({ pageName }) => {
   return (
     <div style={styles.titleBar}>
-      <p style={styles.p}>{pageName}</p>
+      <p style={styles.para}>{pageName}</p>
       <img
         style={styles.battery}
         src="https://cdn-icons-png.flaticon.com/512/188/188092.png"
@@ -20,24 +20,29 @@ const styles = {
     height: "10%",
     width: "100%",
     borderRadius: "12px 0 0 0",
-    backgroundImage: "linear-gradient(0deg, E6EEF8, transparent)",
+    backgroundImage: "linear-gradient(0deg, #E6EEF8, transparent)",
     borderBottom: "1px solid #6c757d",
-    padding: "2px 5px",
+    // padding: "2px 5px",
     display: "flex",
     flexDirecton: "row",
     justifyContent: "space-between",
     alignItems: "center",
     // textAlign: "center",
   },
-  p: {
-    // textAlign: "center",
-    height: "100%",
+  para: {
+    padding: 0,
+    textAlign: "center",
+    // height: "100%",
     marginLeft: "10px",
-    marginTop: 1,
+    // marginTop: '1',
+    fontWeight: "bold",
+    // border: "1px solid green",
+    marginBottom: "0px",
   },
   battery: {
     width: "20px",
     height: "20px",
     marginRight: "10px",
+    // border: "1px solid green",
   },
 };
