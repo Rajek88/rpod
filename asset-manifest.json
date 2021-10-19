@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rpod/static/css/main.ef95774c.chunk.css",
+    "main.js": "/rpod/static/js/main.9c25d1aa.chunk.js",
+    "main.js.map": "/rpod/static/js/main.9c25d1aa.chunk.js.map",
+    "runtime-main.js": "/rpod/static/js/runtime-main.05201165.js",
+    "runtime-main.js.map": "/rpod/static/js/runtime-main.05201165.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/rpod/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.197effc5.chunk.js": "/rpod/static/js/2.197effc5.chunk.js",
+    "static/js/2.197effc5.chunk.js.map": "/rpod/static/js/2.197effc5.chunk.js.map",
+    "index.html": "/rpod/index.html",
+    "precache-manifest.c409aed3799fa855238d6dda13289550.js": "/rpod/precache-manifest.c409aed3799fa855238d6dda13289550.js",
+    "service-worker.js": "/rpod/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/rpod/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ef95774c.chunk.css.map": "/rpod/static/css/main.ef95774c.chunk.css.map",
+    "static/js/2.197effc5.chunk.js.LICENSE.txt": "/rpod/static/js/2.197effc5.chunk.js.LICENSE.txt",
+    "static/media/modernLone.mp3": "/rpod/static/media/modernLone.be86cbb8.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05201165.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.197effc5.chunk.js",
+    "static/css/main.ef95774c.chunk.css",
+    "static/js/main.9c25d1aa.chunk.js"
+  ]
+}
